@@ -15,3 +15,30 @@ body {
     font-weight: bold;
     padding: 20px;  
 }
+#nav{
+    margin: 0 auto;
+    background-color: #E9CC4A;
+}   
+#menu {
+    height: 50px;
+    background-color: #E9CC4A;
+}
+#menu ul{
+    list-style-type: none;
+    background-color: #E9CC4A;
+}
+#menu ul li{
+    float: left;
+}
+#menu ul li a{
+    text-decoration: none;
+    color: #8F812E;
+    font-size: 20px;
+    display: block;
+    padding: 13.5px 20px;
+    transition: 0.3s ease;
+}
+#menu ul li a:hover{
+    background-color: #FBDF5A;
+    border-bottom: 3px solid #D0B729;
+}
