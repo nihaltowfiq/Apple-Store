@@ -65,3 +65,37 @@ body {
 #searchbox .submit:hover{
     cursor: pointer;
 }
+#section{
+    border-bottom: 1px dashed #adabab;
+    overflow: hidden;
+}
+#section h3{
+    color: #4D4D4D;
+    padding: 20px 20px 5px 20px;
+    font-weight: 500;
+    font-size: 20px;
+}
+#section p{
+    color: #6b6b6b;
+    text-align: justify;
+    padding: 0 10px;
+    padding-bottom: 10px;
+}
+#section div{
+    float: right;
+    background-color: #A92F2E;
+    width: 100px;
+    margin-bottom: 10px;
+}
+#section div p{
+    text-align: center;
+    padding: 5px 2px;
+}
+#section div p a{
+    text-decoration: none;
+    color: white;
+    transition: 0.3s ease;
+}
+#section div p a:hover{
+    color: black;
+}
